@@ -19,3 +19,6 @@ body {
 .img-medium {
     height: 200px;
 }
+.text-small {
+    font-size: 100%;
+}
