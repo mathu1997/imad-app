@@ -22,3 +22,7 @@ body {
 .text-small {
     font-size: 100%;
 }
+.text-align {
+    -margin-start: 250px;
+    -margin-end: 200px;
+}
