@@ -9,18 +9,18 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/mathu', function (req, res) {
+app.get('/ui/mathu', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'mathu.html'));
 });
 
-app.get('/mathu-2', function (req, res) {
+app.get('/ui/mathu-2', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'mathu-2.html'));
 });
 
-app.get('/mathu-3', function (req, res) {
+app.get('/ui/mathu-3', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'mathu-3.html'));
 });
-app.get('/main.js', function (req, res) {
+app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
