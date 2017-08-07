@@ -20,6 +20,9 @@ app.get('/mathu-2', function (req, res) {
 app.get('/mathu-3', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'mathu-3.html'));
 });
+app.get('/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
