@@ -10,7 +10,8 @@ app.get('/', function (req, res) {
 });
 
 app.get('/mathu', function (req, res) {
-  res.send('mathu is my name im the owner of this app');
+  res.sendFile(path.join(__dirname, 'ui', 'mathu.html'));
+    
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
