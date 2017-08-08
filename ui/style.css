@@ -26,3 +26,8 @@ body {
     -margin-start: 250px;
     -margin-end: 200px;
 }
+.header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_coffee-bgnd.jpeg");
+  height: 400px;
+  background-position: center center;
+}
