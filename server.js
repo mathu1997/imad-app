@@ -9,17 +9,10 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/ui/mathu', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'mathu.html'));
+app.get('/ui/mathu-0ne.html', function (req, res) {
+  res.send('hi im mathu');
 });
 
-app.get('/ui/mathu-2', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'mathu-2.html'));
-});
-
-app.get('/ui/mathu-3', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'mathu-3.html'));
-});
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
