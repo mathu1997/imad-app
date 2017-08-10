@@ -5,7 +5,7 @@ body {
 }
 
 .center {
-    background-image: url("https://lh3.googleusercontent.com/p07os46TO1vF0XFN3Zc-DpF4QQs1WVk-dj5_Z1poZrJoIyjQpehIdf--9XmgbgDbjpQDi0W-dc6XpG9nOcTcdQEDnHg-bN78_e6dJ_Nm2Lw1nh2q0Fz7ZcWsznLfzeAMa3V0bxNzySbKxckDgWTOHLb01hx96xAxIh-nV70jcMlq1LyPv93hb3IzYgk5MnBHAXgmompuAXj3QzocD4BPwy-o5wsyBsnfGpPjTwldmkJRc6xT_LrPLziSsoG3koZLAachiPdMBDAGCraQ4IZjZ2orSw4ib7M2YAaqxJ9ZfuuRp9NKxz-QMn9reI4-jJaLrXpUFpuDwvB7NLAPMl5HyJU0tmBNDOcr85pztBA7SAwo9xcfI8MSCKLmJDQDtdzE4-4YX_D1GhX1W4IwpcbfIknC4q9Sl4P8DO9xGcK9vDcFBTQ9mH6Rq_TYCovT6Zhtr9v0YFG0w8LRo5aDGjxwr3nULJ1xSY3aCe8lhEXL5bJgJbxyJMRgnFkZyLeYV25cTfUwUq-zkib9A5hQ7HCQyr81-4AvEznfhGUWy2j4jvn56hSUeIBt2hqIipLoBy6e2-Ju1M2fn-Vosc5p0UejAs69jp-RBad-KKVdM3VljQR-N4Q035dRk368=w896-h672-no");
+   
     text-align: center;
 }
 
@@ -28,7 +28,7 @@ body {
     -margin-end: 200px;
 }
 .header {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_coffee-bgnd.jpeg");
+  background-image: url("https://lh3.googleusercontent.com/p07os46TO1vF0XFN3Zc-DpF4QQs1WVk-dj5_Z1poZrJoIyjQpehIdf--9XmgbgDbjpQDi0W-dc6XpG9nOcTcdQEDnHg-bN78_e6dJ_Nm2Lw1nh2q0Fz7ZcWsznLfzeAMa3V0bxNzySbKxckDgWTOHLb01hx96xAxIh-nV70jcMlq1LyPv93hb3IzYgk5MnBHAXgmompuAXj3QzocD4BPwy-o5wsyBsnfGpPjTwldmkJRc6xT_LrPLziSsoG3koZLAachiPdMBDAGCraQ4IZjZ2orSw4ib7M2YAaqxJ9ZfuuRp9NKxz-QMn9reI4-jJaLrXpUFpuDwvB7NLAPMl5HyJU0tmBNDOcr85pztBA7SAwo9xcfI8MSCKLmJDQDtdzE4-4YX_D1GhX1W4IwpcbfIknC4q9Sl4P8DO9xGcK9vDcFBTQ9mH6Rq_TYCovT6Zhtr9v0YFG0w8LRo5aDGjxwr3nULJ1xSY3aCe8lhEXL5bJgJbxyJMRgnFkZyLeYV25cTfUwUq-zkib9A5hQ7HCQyr81-4AvEznfhGUWy2j4jvn56hSUeIBt2hqIipLoBy6e2-Ju1M2fn-Vosc5p0UejAs69jp-RBad-KKVdM3VljQR-N4Q035dRk368=w896-h672-no");
   height: 400px;
   background-position: center center;
 }
