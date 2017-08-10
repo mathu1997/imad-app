@@ -56,7 +56,7 @@ body {
   color: white;
   font-weight: bold;
   font-size: 18px;
-  transition: 4.0s ease;
+  transition: 10.0s ;
   border-radius: 0 3px 3px 0;
 }
 
@@ -96,11 +96,11 @@ body {
   cursor:pointer;
   height: 13px;
   width: 13px;
-  margin: 0 2px;
+  margin: 2px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 4s ease;
+  transition: background-color 10.0s ;
 }
 
 .active, .dot:hover {
@@ -112,7 +112,7 @@ body {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 4.0s;
+  animation-duration: 10.0s;
 }
 
 @-webkit-keyframes fade {
