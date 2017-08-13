@@ -135,7 +135,5 @@ a:visited{
 a:hover{
     color:blue;
 }
-
-
-}
-}
+clearfix::after{
+    content:hi im mathu;}
