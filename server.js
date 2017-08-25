@@ -25,7 +25,7 @@ function hash (input) {
     return hashed.toString('hex');
 }
 app.get('/hash/:input', function(req, res) {
-    var hashedString = hash(req,params,input);
+    var hashedString = hash(req.params.input);
     res.send(hashedString);
 });
 
