@@ -14,8 +14,8 @@ submit.onclick = function () {
             }
         }
     };
-    var username = document.grtElementById('username').value;
-    var password = document.grtElementById('password').value;
+    var username = document.getElementById('username').value;
+    var password = document.getElementById('password').value;
     console.log(username);
     console.log(password);
     request.open('POST', 'http://http://mathu1997mm.imad.hasura-app.io/login' + name, true);
