@@ -20,5 +20,6 @@ submit.onclick = function () {
     console.log(password);
     request.open('POST', 'http://http://mathu1997mm.imad.hasura-app.io/login' + name, true);
     request.setRequestHeader('content-Type', 'application/jason');
+    
     request.send(JSON.stringify({username: username, password: password}));
 };
