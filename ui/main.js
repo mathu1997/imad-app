@@ -1,28 +1,24 @@
-console.log('Loaded!');
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-    
+var submit = document.getElementById('submit_btn');
+submit.onclick = function () {
+    var request = new XM.httpRequest();
+    request.onreadystatechange = function () {
+        if (request.readyState === XM.httpRequest.DONE) {
+            if(request.status === 200) {
+               console.log('user logged in');
+               alert('logged in successfully');
+            } else if (request.status === 403) {
+                alert('username/password is incorrect');
+            }  else if (request.status === 500) {
+                alert('something went wrong on server');
+            
+            }
+        }
+    };
+    var username = document.grtElementById('username').value;
+    var password = document.grtElementById('password').value;
+    console.log(username);
+    console.log(password);
+    request.open('POST', 'http://http://mathu1997mm.imad.hasura-app.io/login' + name, true);
+    request.setRequestHeader('content-Type', 'application/jason');
+    request.send(JSON.stringify({username: username, password: password}));
+};
